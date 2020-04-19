@@ -19,3 +19,8 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+#QMUI Android 库混淆规则
+-keep class **_FragmentFinder { *; }
+-keep class com.qmuiteam.qmui.arch.record.** { *; }
+-keep class androidx.fragment.app.* { *; }

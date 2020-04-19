@@ -32,8 +32,8 @@ ext {
             /**
              * Butterknife---必选
              */
-            butterknife           : "com.jakewharton:butterknife:10.2.0",
-            butterknifeCompiler   : "com.jakewharton:butterknife-compiler:10.2.0",//必须要有，不然就会出现控件绑定和点击均无效
+            butterknife           : "com.jakewharton:butterknife:8.4.0",
+            butterknifeCompiler   : "com.jakewharton:butterknife-compiler:8.4.0",//必须要有，不然就会出现控件绑定和点击均无效
             /**
              *  配置javax.annotation包---必选
              */
